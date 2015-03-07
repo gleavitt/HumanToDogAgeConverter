@@ -13,6 +13,7 @@
 		6AC7DB741AAA8C2F002EC55C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7DB731AAA8C2F002EC55C /* Images.xcassets */; };
 		6AC7DB771AAA8C2F002EC55C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7DB751AAA8C2F002EC55C /* LaunchScreen.xib */; };
 		6AC7DB831AAA8C2F002EC55C /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7DB821AAA8C2F002EC55C /* AgeOfLaikaTests.swift */; };
+		6AC7DB8D1AAA8CC0002EC55C /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7DB8C1AAA8CC0002EC55C /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6AC7DB7C1AAA8C2F002EC55C /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC7DB811AAA8C2F002EC55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AC7DB821AAA8C2F002EC55C /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		6AC7DB8C1AAA8CC0002EC55C /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		6AC7DB6A1AAA8C2F002EC55C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6AC7DB8C1AAA8CC0002EC55C /* AgeOfLaika.jpg */,
 				6AC7DB6B1AAA8C2F002EC55C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					6AC7DB661AAA8C2F002EC55C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2GJ79U88QA;
 					};
 					6AC7DB7B1AAA8C2F002EC55C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC7DB721AAA8C2F002EC55C /* Main.storyboard in Resources */,
+				6AC7DB8D1AAA8CC0002EC55C /* AgeOfLaika.jpg in Resources */,
 				6AC7DB771AAA8C2F002EC55C /* LaunchScreen.xib in Resources */,
 				6AC7DB741AAA8C2F002EC55C /* Images.xcassets in Resources */,
 			);
@@ -338,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AgeOfLaika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AgeOfLaika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
